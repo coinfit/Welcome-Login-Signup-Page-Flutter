@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Auth',
       theme: ThemeData(
-        primaryColor: kPrimaryColor,
+        primaryColor: Color.fromRGBO(107, 53, 251, 1),
         scaffoldBackgroundColor: Colors.white,
       ),
       home: WelcomeScreen(),

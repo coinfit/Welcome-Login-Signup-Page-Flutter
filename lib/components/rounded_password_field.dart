@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_auth/components/text_field_container.dart';
 import 'package:flutter_auth/constants.dart';
 
+///USE FOR MYRON
+
 class RoundedPasswordField extends StatelessWidget {
   final ValueChanged<String> onChanged;
   const RoundedPasswordField({
@@ -22,10 +24,13 @@ class RoundedPasswordField extends StatelessWidget {
             Icons.lock,
             color: kPrimaryColor,
           ),
-          suffixIcon: Icon(
-            Icons.visibility,
-            color: kPrimaryColor,
-          ),
+          // suffixIcon: GestureDetector(
+          //   onTap: (),
+          //   child: Icon(
+          //     Icons.visibility,
+          //     color: kPrimaryColor,
+          //   ),
+          // ),
           border: InputBorder.none,
         ),
       ),
